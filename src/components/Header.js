@@ -7,7 +7,7 @@ const Header = () => {
     return (
 
         <Navbar collapseOnSelect expand="lg" style={{ background: 'green', padding: 10, fontSize: 20 }} variant="dark">
-            <Navbar.Brand href="/">Hicotek-C</Navbar.Brand>
+            <Navbar.Brand href="/">Hicotek-Countries-App</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
