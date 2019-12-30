@@ -25,7 +25,7 @@ const SearchForm = ({ SetSearchTerm }) => {
                     <Form style={{ marginTop: 18 }}>
                         <Form.Group as={Row} >
                             <Col sm={10}>
-                                <Form.Control type="text" placeholder="Search Country"
+                                <Form.Control type="text" placeholder="Enter Country Name"
                                     value={inputText}
                                     onChange={handleInputChange}
                                 />
