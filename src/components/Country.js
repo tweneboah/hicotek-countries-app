@@ -14,7 +14,7 @@ const Country = ({ country, isLoading }) => {
         <Container>
             <Row className='m-4'>
                 <Col md={{ span: 6, offset: 3 }}>
-
+                    <h4>Get to know the most important information about every countries in the word</h4>
                     <Card style={{ width: '100%' }}>
                         <Card.Img variant="top" src={country.flag} />
                         <Card.Body>
